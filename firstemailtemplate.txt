@@ -1,0 +1,35 @@
+Hi!
+
+Thank you for registering for the upcoming Software Carpentry Beginner Python workshop at the XXX - we are looking forward to working with you! Over the course of the workshop, you'll learn some tools and skills to help accelerate your research, and our hope is that this will save you time and help you better organise and document your research.
+
+Before the Workshop:
+
+1. Please follow the setup instructions at http://daryavanichkina.com/2016-08-10-pyconau/ to make sure your computer has what you'll need for day one, and run the checking scripts at http://daryavanichkina.com/2016-08-10-pyconau/setup/index.html to make sure everything is in place. If you hit any snags, or don't understand what the instructions are asking for, we're happy to help - please send questions to us at d.vanichkina@gmail.com, and/or come to the workshop at 8:00 am on Wednesday so that we can troubleshoot then.
+
+2. Please fill out the pre-workshop survey (as soon as possible!) at LINK??? so we know a bit more about you  - this will *really* help us plan what and how to teach. 
+
+
+At the Workshop
+
+The workshop is being held at the XXX on August 10 th starting from 9 AM in the XXX. If you have any issues with installing the required software, please come at 8:00 AM, so we can sort them out before we need to start teaching. 
+
+The building itself is here and a map of the teaching spaces  is available here. 
+
+
+Your instructors are:
+
+Alistair Walsh: 
+
+Darya Vanichkina: Research Officer at the Centenary Institute working in mammalian genomics, focused on transcriptomics and non-coding RNA
+
+XXX :???
+
+
+
+We look forward to seeing you on Wednesday, 
+
+Darya Vanichkina
+
+(on behalf of the SWC Python PyCon2016 teaching team)
+
+PS If you can't make it to the workshop, please let us know as soon as possible by replying to this email, so we can open more registrations for people who might want to come. Thank you!
