@@ -1,11 +1,11 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
 carpentry: "swc"    # what kind of Carpentry (must be either "dc" or "swc")
-venue: "VLSCI"        # brief name of host site without address (e.g., "Euphoric State University")
+venue: "Software Carpentry for PyCon-Au - Hosted by VLSCI"        # brief name of host site without address (e.g., "Euphoric State University")
 address: "LAB-14, 700 Swanston Street, Carlton, Melbourne"      # street address of workshop (e.g., "123 Forth Street, Blimingen, Euphoria")
 country: "au"      # country (lowercase two-letter ISO code such as "fr" - see https://en.wikipedia.org/wiki/ISO_3166-1)
 language: "en"     # language (lowercase two-letter ISO code such as "fr" - see https://en.wikipedia.org/wiki/ISO_639-1)
-latlng: "FIXME"       # fractional latitude and longitude (e.g., "41.7901128,-87.6007318"; you can use http://www.latlong.net/)
+latlng: "-37.800105,144.964350"       # fractional latitude and longitude (e.g., "41.7901128,-87.6007318"; you can use http://www.latlong.net/)
 humandate: "August 10-11, 2016"    # human-readable date (e.g., "Feb 17-18, 2020")
 humantime: "8:30 am - 4:30 pm"    # human-readable time (e.g., "9:00 am - 4:30 pm")
 startdate: 2016-08-10      # use YYYY-MM-DD format like 2015-01-01
@@ -46,11 +46,6 @@ eventbrite:           # optional (insert the alphanumeric key for Eventbrite reg
 </iframe>
 {% endif %}
 
-<h4>This is the workshop template.  Use it to create your own website.
-Delete this line and email the link to your workshop page to admin@software-carpentry.org.
-If this is a self organized workshop, please be sure to include any other details
-Software Carpentry staff may need to know in your email.</h4>
-
 
 <h2 id="general">General Information</h2>
 
@@ -70,6 +65,14 @@ Software Carpentry staff may need to know in your email.</h4>
   help one another and to apply what they have learned to their own
   research problems.
 </p>
+
+<p>
+  This workshop is a tie-in with <a href="https://2016.pycon-au.org/"> PyCon-Au </a>,
+  Australia's Python community conference. PyCon-Au starts immediately
+  after this workshop. We hope that this workshop and the conference will act
+  as a welcome to the Python community for participants.
+</p>
+
 <p align="center">
   <em>
     For more information on what we teach and why,
@@ -117,10 +120,10 @@ Software Carpentry staff may need to know in your email.</h4>
 -->
 <p id="requirements">
   <strong>Requirements:</strong> Participants must bring a laptop with a
-  Mac, Linux, or Windows operating sytem (not a tablet, Chromebook, etc.) that they have administrative privileges
-  on. They should have a few specific software packages installed (listed
-  <a href="#setup">below</a>). They are also required to abide by
-  Software Carpentry's
+  Mac, Linux, or Windows operating sytem (not a tablet, Chromebook, etc.) that
+  they have administrative privileges on. They should have a few specific
+  software packages installed (listed <a href="#setup">below</a>). They are also
+  required to abide by Software Carpentry's
   <a href="{{site.swc_site}}/conduct.html">Code of Conduct</a>.
 </p>
 
@@ -181,23 +184,27 @@ Software Carpentry staff may need to know in your email.</h4>
   <div class="col-md-6">
     <h3>Day 1</h3>
     <table class="table table-striped">
-      <tr> <td>09:00</td>  <td>Automating tasks with the Unix shell</td> </tr>
-      <tr> <td>10:30</td> <td>Coffee</td> </tr>
+      <tr> <td>08:30</td>  <td>Automating tasks with the Unix shell</td> </tr>
+      <tr> <td>10:00</td>  <td>Coffee break</td> </tr>
+      <tr> <td>10:30</td>  <td>Continuing with the Unix shell</td> </tr>
       <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
-      <tr> <td>13:00</td>  <td>Building programs with Python</td> </tr>
-      <tr> <td>14:30</td>  <td>Coffee</td> </tr>
-      <tr> <td>16:00</td>  <td>Wrap-up</td> </tr>
+      <tr> <td>13:00</td>  <td>Introducing Python</td> </tr>
+      <tr> <td>14:30</td>  <td>Coffee break</td> </tr>
+      <tr> <td>15:00</td>  <td>Data structures in Python</td> </tr>
+      <tr> <td>16:15</td>  <td>Wrap-up</td> </tr>
+      <tr> <td>16:30</td>  <td>End of day one</td> </tr>
     </table>
   </div>
   <div class="col-md-6">
     <h3>Day 2</h3>
     <table class="table table-striped">
-      <tr> <td>09:00</td>  <td>Version control with Git</td> </tr>
-      <tr> <td>10:30</td>  <td>Coffee</td> </tr>
+      <tr> <td>08:30</td>  <td>Python continued</td> </tr>
+      <tr> <td>10:00</td>  <td>Coffee break</td> </tr>
+      <tr> <td>10:30</td>  <td>Running Python scripts</td> </tr>
       <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
-      <tr> <td>13:00</td>  <td>Managing data with SQL</td> </tr>
-      <tr> <td>14:30</td>  <td>Coffee</td> </tr>
-      <tr> <td>16:00</td>  <td>Wrap-up</td> </tr>
+      <tr> <td>13:00</td>  <td>Version control and collaboration with Git </td> </tr>
+      <tr> <td>15:15</td>  <td>Wrap-up</td> </tr>
+      <tr> <td>15:30</td>  <td>End of the workshop</td> </tr>
     </table>
   </div>
 </div>
@@ -312,20 +319,6 @@ Software Carpentry staff may need to know in your email.</h4>
       <li>Open licenses</li>
       <li>Where to host work, and why</li>
       <li><a href="{{site.swc_github_io}}/git-novice/reference/">Reference...</a></li>
-    </ul>
-  </div>
-  <div class="col-md-6">
-    <h3 id="syllabus-sql">Managing Data with SQL</h3>
-    <ul>
-      <li>Reading and sorting data</li>
-      <li>Filtering with <code>where</code></li>
-      <li>Calculating new values on the fly</li>
-      <li>Handling missing values</li>
-      <li>Combining values using aggregation</li>
-      <li>Combining information from multiple tables using <code>join</code></li>
-      <li>Creating, modifying, and deleting data</li>
-      <li>Programming with databases</li>
-      <li><a href="{{site.swc_github_io}}/sql-novice-survey/reference/">Reference...</a></li>
     </ul>
   </div>
 </div>
@@ -508,7 +501,8 @@ Software Carpentry staff may need to know in your email.</h4>
   </div>
 </div> <!-- End of 'Git' section. -->
 
-<div id="editor"> <!-- Start of 'editor' section. -->
+<!-- Start of 'editor' section. -->
+<div id="editor">
   <h3>Text Editor</h3>
 
   <p>
@@ -569,7 +563,8 @@ Software Carpentry staff may need to know in your email.</h4>
       </p>
     </div>
   </div>
-</div> <!-- End of 'editor' section. -->
+</div>
+<!-- End of 'editor' section. -->
 
 <div id="python"> <!-- Start of 'Python' section. Remove the third paragraph if
            the workshop will teach Python using something other than
@@ -659,7 +654,8 @@ Software Carpentry staff may need to know in your email.</h4>
 -->
 </div> <!-- End of 'Python' section. -->
 
-<div id="r"> <!-- Start of 'R' section. -->
+<!-- Start of 'R' section. -->
+<!-- <div id="r">
   <h3>R</h3>
 
   <p>
@@ -704,9 +700,11 @@ Software Carpentry staff may need to know in your email.</h4>
       </p>
     </div>
   </div>
-</div> <!-- End of 'R' section. -->
+</div>  -->
+<!-- End of 'R' section. -->
 
-<div id="sql"> <!-- Start of 'SQLite' section. -->
+<!-- Start of 'SQLite' section. -->
+<!-- <div id="sql">
   <h3>SQLite</h3>
 
   <p>
@@ -741,7 +739,8 @@ Software Carpentry staff may need to know in your email.</h4>
   <p><strong>If you installed Anaconda, it also has a copy of SQLite
     <a href="https://github.com/ContinuumIO/anaconda-issues/issues/307">without support to <code>readline</code></a>.
     Instructors will provide a workaround for it if needed.</strong></p>
-</div> <!-- End of 'SQLite' section. -->
+</div>  -->
+<!-- End of 'SQLite' section. -->
 
 <!--
   Uncomment this section if you are using our virtual machine.
